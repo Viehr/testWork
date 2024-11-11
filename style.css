@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+main {
+    width: 1400px;
+    height: 520px;
+    background-color: #F3F5F8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.textForm {
+    margin: 60px 0px 0px 60px;
+}
+.form {
+    width: 70%;
+    margin: 60px 60px 0px 11%;
+}
+
+h2 {
+    width: 316px;
+    height: 80px;
+    font-size: 34px;
+    font-weight: 500;
+    margin: 0px;
+}
+.instructions {
+    width: 380px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.inputForm {
+    width: 335px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px;
+    border-color: #DFE4EC;
+    color: black;
+    padding: 0px 0px 0px 14px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.inputFormOne {
+    margin: 0px 20px 20px 0px;
+}
+.inputFormTwo {
+    margin: 0px 0px 0px 20px;
+}
+textarea {
+    font-family: "Roboto", sans-serif;
+    width: 720px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px;
+    margin: 20px 0px 14px 0px;
+    padding: 20px 0px 0px 14px;
+    box-sizing: border-box;
+    resize: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.attachment {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    text-decoration: none;
+}
+img {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+}
+button {
+    border-radius: 28px;
+    background-color: #BE3D3D;
+    width: 360px;
+    height: 56px;
+    border: 1px;    
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.agreement {
+    width: 346px;
+    height: 36px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #9FA4AA;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+    main {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .textForm {
+        margin: 20px 0;
+        text-align: center;
+    }
+    h2,
+    .instructions {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .form {
+        width: 100%;
+        margin: 0;
+    }
+    .inputForm,
+    textarea {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .attachment {
+        width: 100%;
+        justify-content: center;
+    }
+    button {
+        width: 100%;
+    }
+    .agreement {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+    .instructions {
+        font-size: 14px;
+    }
+    .attachment {
+        font-size: 14px;
+    }
+    button {
+        font-size: 16px;
+        height: 48px;
+    }
+}
